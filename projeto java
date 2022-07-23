@@ -1,0 +1,63 @@
+pacote  br . com . dio . modelo ;
+
+importar  java . útil . Objetos ;
+
+ classe  pública Gato {
+     nome da string  privada ;
+    private  String  cor ;
+    private  Integer  idade ;
+
+    público  Gato () {}
+
+    public  Gato ( String  nome , String  cor , Integer  idade ) {
+        isso . nome = nome ;
+        isso . cor = cor ;
+        isso . idade = idade ;
+    }
+
+    public  String  getNome () {
+        retornar  nome ;
+    }
+
+    public  void  setNome ( String  nome ) {
+        isso . nome = nome ;
+    }
+
+    public  String  getCor () {
+        retorno  cor ;
+    }
+
+    public  void  setCor ( String  cor ) {
+        isso . cor = cor ;
+    }
+
+    public  Integer  getIdade () {
+        retornar  idade ;
+    }
+
+    public  void  setIdade ( Integer  idade ) {
+        isso . idade = idade ;
+    }
+
+    @ Substituir
+    public  boolean  equals ( Object  o ) {
+        if ( this == o ) return  true ;
+        if ( o == null || getClass ( ) != o.getClass ( )) return false ; 
+        Gato  gato = ( Gato ) o ;
+         objetos de retorno . equals ( nome , gato.nome ) && Objetos . _ igual a ( cor , gato . cor ) && Objetos . igual ( idade , gato . idade );
+    }
+
+    @ Substituir
+    public  int  hashCode () {
+         objetos de retorno . hash ( nome , cor , idade );
+    }
+
+    @ Substituir
+    public  String  toString () {
+        return  "Gato{" +
+                "nome='" + nome + '\'' +
+                ", cor='" + cor + '\'' +
+                ", idade=" + idade +
+                '}' ;
+    }
+}
