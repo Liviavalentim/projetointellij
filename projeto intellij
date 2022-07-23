@@ -1,0 +1,9 @@
+<? xml version = " 1.0 " encoding = " UTF-8 " ?>
+< tipo de módulo  = " JAVA_MODULE " versão = " 4 " > 
+  < nome do componente  = " NewModuleRootManager " inherit-compiler-output = " true " > 
+    < excluir-saída />
+    < URL do conteúdo  = " arquivo://$MODULE_DIR$ " />
+    < tipo de entrada do pedido = " herdadoJdk  " />
+    < orderEntry  type = " sourceFolder "  forTests = " false " />
+  </ componente >
+</ módulo >
