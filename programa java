@@ -1,0 +1,52 @@
+pacote  br . com . dio ;
+
+importação  br . com . dio . modelo . Gato ;
+
+public  class  PrimeiroPrograma {
+    public  static  void  main ( String [] args ) {
+        Gato  gato = novo  Gato ();
+
+        Sistema . fora . println ( gato );
+
+        Livro  livro1 = new  Livro ( "O problema dos 3 corpos" , 300 );
+        Sistema . fora . println ( livro1 );
+
+        /*int a = 5;
+        intb = 3;
+        System.out.println("Olá Mundo!" + (a+b));*/
+    }
+}
+
+classe  Livro {
+     nome da string  privada ;
+    private  Integer  numPaginas ;
+
+    public  Livro ( String  nome , Integer  numPaginas ) {
+        isso . nome = nome ;
+        isso . numPaginas = numPaginas ;
+    }
+
+    public  String  getNome () {
+        retornar  nome ;
+    }
+
+    public  void  setNome ( String  nome ) {
+        isso . nome = nome ;
+    }
+
+    public  Integer  getNumPaginas () {
+        return  numPaginas ;
+    }
+
+    public  void  setNumPaginas ( Inteiro  numPaginas ) {
+        isso . numPaginas = numPaginas ;
+    }
+
+    @ Substituir
+    public  String  toString () {
+        return  "Livro{" +
+                "nome='" + nome + '\'' +
+                ", numPaginas=" + numPaginas +
+                '}' ;
+    }
+}
